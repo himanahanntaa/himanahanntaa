@@ -69,8 +69,8 @@
     }
   }
   .number-list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 55px);
     justify-content: center;
     gap: 4px 12px;
     margin: 0 auto 20px;
@@ -79,9 +79,10 @@
   .number-list a {
     display: block;
     width: 55px;
-    text-align: left;
+    text-align: center;
     padding: 3px 0;
   }
+
 
 
 </style>
